@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscador de Acessibilidade</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Inclusão no Rolê
+        </h1>
+        <p>Este site é dedicado à encontrar locais com acessibilidade para pessoas PcD.</p>
+        <p>Como é um projeto em desenvolvimento ainda, tem a possibilidade de não ter contemplado todo o espectro, mas me esforcei ao máximo para isto.</p>
+        <p>Agora diz aí, vamos almoçar? Jantar? O que vamos fazer hoje?</p>
+
+    </header>
+    
+    <main>
+        <section>
+            <p>
+                <input type="text" placeholder="Qual rolê quer dar?" id="campo-role">
+            <input type="text" placeholder="Deficiência" id="campo-deficiencia">
+            <button onclick= "pesquisar()">Bora</button>
+            </p>
+            
+        </section>
+
+        <section class = "resul-restaurantes" id="resul-restaurantes">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Site criado por Gabriel Thomazoni (09/24) para o Concurso de Projetos Imersão Alura com Gemini</p>
+        <p>Email de contato: gabrielthomazoni@hotmail.com</p>
+    </footer>
+    
+    <script src="functions.js"></script>
+    <script src="locais.js"></script>
+
+
+</body>
+</html>
